@@ -67,14 +67,6 @@ Press CTRL+D to end input
 
 ---
 
-## 💡 Future Additions
-
-- Log file parsers
-- Backup utilities
-- Cron job examples
-- Data validation scripts
-
----
 
 ## 🙋‍♂️ Author
 
