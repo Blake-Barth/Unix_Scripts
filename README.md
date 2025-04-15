@@ -1,24 +1,22 @@
 # 🖥️ Shell & Perl Scripting Projects
 
-This repository showcases a collection of Shell and Perl scripts designed for practical use cases and demonstrating scripting proficiency. These scripts include system utilities, data processing tools, and text manipulation programs.
+This repository showcases a collection of Shell and Perl scripts made for my UNIX TOOLS class demonstrating scripting proficiency. These scripts include system utilities, data processing tools, and text manipulation programs.
 
 ---
 
-## 📁 Contents
+## 📁 Script Overview
 
-### 🐚 Shell Scripts
-
-| Script Name     | Description |
-|----------------|-------------|
-| `cal.sh`        | A custom calendar script – possibly mimicking or enhancing the `cal` utility. |
-| `junk.sh`       | Junk file manager – may help move, delete, or manage temporary files. |
-| `phonebook.sh`  | Simple command-line phonebook using shell scripting logic and file operations. |
-
-### 🐪 Perl Scripts
-
-| Script Name     | Description |
-|----------------|-------------|
-| `wordfreq.pl`   | A Perl script that analyzes and prints the frequency of words (≥2 letters) from standard input, sorted by frequency and alphabetically. Useful for text analysis, log scanning, and NLP preprocessing. |
+| Script        | Language | Description                                           |
+|---------------|----------|-------------------------------------------------------|
+| `cal.sh`      | Shell    | Custom calendar display with optional month/year args |
+| `junk.sh`     | Shell    | Moves files to a hidden `.junk` directory             |
+| `phonebook.sh`| Shell    | Contact manager supporting add/delete/modify/search   |
+| `plot.sh`     | Shell    | Plots data from a text file using `gnuplot`           |
+| `justify.pl`  | Perl     | Justifies text to a specified column width            |
+| `freq.pl`     | Perl     | Calculates word frequencies from standard input       |
+| `head.pl`     | Perl     | Displays up to 10 lines from standard input           |
+| `justify.pl`  | Perl     | Formats and justifies paragraphs to a given width     |
+| `middle.pl`   | Perl     | Prints the middle *n* lines from standard input       |
 
 ---
 
@@ -66,10 +64,3 @@ Press CTRL+D to end input
 - Perl (pre-installed on most Unix-based systems)
 
 ---
-
-
-## 🙋‍♂️ Author
-
-**Blake Barth**
-
-> "Automating the boring stuff one script at a time."
