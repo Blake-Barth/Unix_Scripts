@@ -63,3 +63,5 @@ foreach my $entry (@sorted_table) {
     }
     print "$line\n";
 }
+
+exit 0;
