@@ -1,59 +1,83 @@
-
-🖥️ Shell & Perl Scripting Projects
+# 🖥️ Shell & Perl Scripting Projects
 
 This repository showcases a collection of Shell and Perl scripts designed for practical use cases and demonstrating scripting proficiency. These scripts include system utilities, data processing tools, and text manipulation programs.
 
-📁 Contents
+---
 
-🐚 Shell Scripts
-Script Name	Description
-cal.sh	A custom calendar script – possibly mimicking or enhancing the cal utility.
-junk.sh	Junk file manager – may help move, delete, or manage temporary files.
-phonebook.sh	Simple command-line phonebook using shell scripting logic and file operations.
-🐪 Perl Scripts
-Script Name	Description
-wordfreq.pl	A Perl script that analyzes and prints the frequency of words (≥2 letters) from standard input, sorted by frequency and alphabetically. Useful for text analysis, log scanning, and NLP preprocessing.
-🧪 How to Run
-Shell Scripts
+## 📁 Contents
 
+### 🐚 Shell Scripts
+
+| Script Name     | Description |
+|----------------|-------------|
+| `cal.sh`        | A custom calendar script – possibly mimicking or enhancing the `cal` utility. |
+| `junk.sh`       | Junk file manager – may help move, delete, or manage temporary files. |
+| `phonebook.sh`  | Simple command-line phonebook using shell scripting logic and file operations. |
+
+### 🐪 Perl Scripts
+
+| Script Name     | Description |
+|----------------|-------------|
+| `wordfreq.pl`   | A Perl script that analyzes and prints the frequency of words (≥2 letters) from standard input, sorted by frequency and alphabetically. Useful for text analysis, log scanning, and NLP preprocessing. |
+
+---
+
+## 🧪 How to Run
+
+### Shell Scripts
+
+```bash
 chmod +x scriptname.sh
 ./scriptname.sh
+```
 
-Perl Scripts
+### Perl Scripts
 
+```bash
 chmod +x wordfreq.pl
 cat input.txt | ./wordfreq.pl
+```
 
 You can also run it interactively by typing directly into standard input:
 
+```bash
 ./wordfreq.pl
 Type your input text here
 Press CTRL+D to end input
+```
 
-📚 Learning Objectives
+---
 
-    Demonstrate knowledge of:
+## 📚 Learning Objectives
 
-        Shell control structures (if/else, loops)
+- Demonstrate knowledge of:
+  - Shell control structures (if/else, loops)
+  - File manipulation
+  - String processing
+  - Perl regular expressions
+  - Hashes, sorting, and text formatting
+- Practice scripting for real-world CLI tools
 
-        File manipulation
+---
 
-        String processing
+## 🔧 Requirements
 
-        Perl regular expressions
+- Bash-compatible shell (Linux/macOS/WSL)
+- Perl (pre-installed on most Unix-based systems)
 
-        Hashes, sorting, and text formatting
+---
 
-    Practice scripting for real-world CLI tools
+## 💡 Future Additions
 
-🔧 Requirements
+- Log file parsers
+- Backup utilities
+- Cron job examples
+- Data validation scripts
 
-    Bash-compatible shell (Linux/macOS/WSL)
+---
 
-    Perl (pre-installed on most Unix-based systems)
+## 🙋‍♂️ Author
 
-🙋‍♂️ Author
+**Blake Barth**
 
-Blake Barth
-
-    "Automating the boring stuff one script at a time."
+> "Automating the boring stuff one script at a time."
